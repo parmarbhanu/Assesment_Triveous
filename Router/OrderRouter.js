@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Order = require("../Models/OrderModel");
 const auth=require("../Middleware/Auth");
 const Product = require("../Models/ProductModel");
-const Cart = require("../models/cartModel");
+const Cart = require("../Models/CartModel");
 const User = require("../Models/UserModel");
 
 //Root route

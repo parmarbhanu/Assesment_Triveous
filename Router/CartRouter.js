@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Product = require("../Models/ProductModel");
-const Cart = require("../models/CartModel");
+const Cart = require("../Models/CartModel");
 const auth=require("../Middleware/Auth");
 
 //Root route
