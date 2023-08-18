@@ -28,7 +28,7 @@ mongoose.connect(process.env.MDB_CONNECT)
 
 app.use("/auth", require("./Router/UserRouter"));
 app.use("/product", require("./Router/ProductRouter"));
-// app.use("/order", require("./Router/OrderRouter"));
+app.use("/order", require("./Router/OrderRouter"));
 app.use("/cart", require("./Router/CartRouter"));
 
 
