@@ -1,1 +1,1 @@
-# Assesment_Triveous for full stack internship
+# Assesment_Triveous
